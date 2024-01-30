@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1672</width>
+    <height>876</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>281</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.738636, y1:1, x2:0, y2:1, stop:0 rgba(0, 0, 34, 255), stop:0.357955 rgba(0, 0, 32, 255), stop:0.488636 rgba(0, 3, 43, 255), stop:0.761364 rgba(0, 0, 52, 255), stop:1 rgba(0, 0, 70, 255));
+border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>279</width>
+       <height>749</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>0</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.284, y1:0.948636, x2:1, y2:0.916, stop:0.4375 rgba(0, 0, 64, 255), stop:0.568182 rgba(0, 0, 93, 255), stop:0.670455 rgba(0, 0, 102, 255), stop:0.789773 rgba(0, 18, 117, 255), stop:0.954545 rgba(0, 57, 142, 255), stop:1 rgba(0, 81, 127, 255));
+border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+
+color: rgb(255, 255, 255);
+
+font: 75 10pt &quot;Segoe UI Variable Small&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>                                IMÓVEIS</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>120</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.284, y1:0.948636, x2:1, y2:0.916, stop:0.4375 rgba(0, 0, 64, 255), stop:0.568182 rgba(0, 0, 93, 255), stop:0.670455 rgba(0, 0, 102, 255), stop:0.789773 rgba(0, 18, 117, 255), stop:0.954545 rgba(0, 57, 142, 255), stop:1 rgba(0, 81, 127, 255));
+border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+
+gridline-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+
+font: 75 10pt &quot;Segoe UI Variable Small&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Adicionar Gasto </string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>240</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.284, y1:0.948636, x2:1, y2:0.916, stop:0.4375 rgba(0, 0, 64, 255), stop:0.568182 rgba(0, 0, 93, 255), stop:0.670455 rgba(0, 0, 102, 255), stop:0.789773 rgba(0, 18, 117, 255), stop:0.954545 rgba(0, 57, 142, 255), stop:1 rgba(0, 81, 127, 255));
+border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+
+color: rgb(255, 255, 255);
+
+font: 75 10pt &quot;Segoe UI Variable Small&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Ver Gastos</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1</y>
+      <width>1671</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;HP Simplified&quot;;
+color: rgb(255, 255, 255);
+
+
+background-color: qlineargradient(spread:reflect, x1:0.284, y1:0.948636, x2:1, y2:0.916, stop:0.4375 rgba(0, 0, 64, 255), stop:0.568182 rgba(0, 0, 93, 255), stop:0.670455 rgba(0, 0, 102, 255), stop:0.789773 rgba(0, 18, 117, 255), stop:0.954545 rgba(0, 57, 142, 255), stop:1 rgba(0, 81, 127, 255));
+border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+    </property>
+    <property name="text">
+     <string>                                                                                                                                                                                                           CONTROLE DE GASTOS</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1672</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuIM_VEIS">
+    <property name="title">
+     <string>Opções</string>
+    </property>
+    <addaction name="action_procurar"/>
+    <addaction name="action_cadastrar"/>
+    <addaction name="action_apagar"/>
+    <addaction name="action_atualizar"/>
+   </widget>
+   <addaction name="menuIM_VEIS"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_procurar"/>
+   <addaction name="action_cadastrar"/>
+   <addaction name="action_apagar"/>
+   <addaction name="action_atualizar"/>
+  </widget>
+  <action name="action_procurar">
+   <property name="icon">
+    <iconset resource="main(images).qrc">
+     <normaloff>:/main(images)/buscar.png</normaloff>:/main(images)/buscar.png</iconset>
+   </property>
+   <property name="text">
+    <string>procurar</string>
+   </property>
+   <property name="toolTip">
+    <string>Procurar Imóvel</string>
+   </property>
+  </action>
+  <action name="action_cadastrar">
+   <property name="icon">
+    <iconset resource="main(images).qrc">
+     <normaloff>:/main(images)/create.png</normaloff>:/main(images)/create.png</iconset>
+   </property>
+   <property name="text">
+    <string>cadastrar</string>
+   </property>
+   <property name="toolTip">
+    <string>Cadastrar Imóvel</string>
+   </property>
+  </action>
+  <action name="action_apagar">
+   <property name="icon">
+    <iconset resource="main(images).qrc">
+     <normaloff>:/main(images)/delete.png</normaloff>:/main(images)/delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>apagar</string>
+   </property>
+   <property name="toolTip">
+    <string>Apagar Imóvel</string>
+   </property>
+  </action>
+  <action name="action_atualizar">
+   <property name="icon">
+    <iconset resource="main(images).qrc">
+     <normaloff>:/main(images)/refresh.png</normaloff>:/main(images)/refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>atualizar</string>
+   </property>
+   <property name="toolTip">
+    <string>Atualizar Tela</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="main(images).qrc"/>
+ </resources>
+ <connections/>
+</ui>
